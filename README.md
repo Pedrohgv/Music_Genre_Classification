@@ -1,6 +1,6 @@
 # Predicting Music Genres Using Waveform Features
 
-Can we predict music genres using features extracted from their waveforms? To answer that question, I used this [dataset](https://www.kaggle.com/insiyeah/musicfeatures) I found on Kaggle; the goal was to classify music using quantitative characteristics presented in the dataset, like *beats*, *spectral centroid* and other mathematical stratifications of songs. So, without further ado, let's get through the project!
+Can we predict music genres using features extracted from their waveforms? To answer that question, I used this [dataset](https://www.kaggle.com/insiyeah/musicfeatures) I found on Kaggle; the goal was to classify music using quantitative characteristics presented in the dataset, like *beats*, *spectral centroid*, and other mathematical stratifications of songs. So, without further ado, let's get through the project!
 
 ## Dataset
 
@@ -32,7 +32,7 @@ The distribution of the features can be seen below:
 
 <img src="images/feature distribution.png" alt="drawing" width="900" height="444"/>
 
-As we can see by the plot above, the features are distributed in a fairly normal fashion with some minor deviations; a standardization process will be welcomed in order to turn the data more digestable to some of our models.
+As we can see by the plot above, the features are distributed in a fairly normal fashion with some minor deviations; a standardization process will be welcomed in order to turn the data more digestible to some of our models.
 Now, let's see the correlation between our features:
 
 <img src="images/feature correlation heatmap.png" alt="drawing" width="600" height="444"/>
@@ -45,7 +45,7 @@ Now, we will investigate the features we're going to be working on. For that pur
 <details>
 <summary>Click to expand</summary>
 
-The `tempo` feature tells us the rithm of a song. The higher the value, the fastest the song plays.
+The `tempo` feature tells us the rhythm of a song. The higher the value, the fastest the song plays.
 
 <img src="images/tempo distribution.png" alt="drawing" width="900" height="444"/>
 
